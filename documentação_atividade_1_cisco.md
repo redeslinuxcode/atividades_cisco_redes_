@@ -2,7 +2,7 @@
 
 ### Topologia:
 
-[](https://github.com/redeslinuxcode/atividades_cisco_redes_/blob/main/topologia_1.PNG)
+![](https://github.com/redeslinuxcode/atividades_cisco_redes_/blob/main/topologia_1.PNG)
 
 
 ### Documentação:
@@ -67,6 +67,14 @@ RT-RJJ(config-router)network 192.168.1.0
 
 
 ~~~
+
+### testes de ping
+
+
+![](https://github.com/redeslinuxcode/atividades_cisco_redes_/blob/main/cisco/ping%20de%20teste%20atividadde%201.1.PNG) ![](https://github.com/redeslinuxcode/atividades_cisco_redes_/blob/main/cisco/ping%20%20de%20teste%20atividadde%201.2.PNG)
+![](https://github.com/redeslinuxcode/atividades_cisco_redes_/blob/main/cisco/ping%20de%20teste%20atividadde%201.3.PNG)
+
+
 
 
 
