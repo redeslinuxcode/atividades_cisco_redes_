@@ -2,7 +2,7 @@
 
 ### Topologia:
 
-![](https://github.com/redeslinuxcode/atividades_cisco_redes_/blob/main/topologia_1.PNG)
+![](https://github.com/redeslinuxcode/atividades_cisco_redes_/blob/main/cisco/topologia_1.PNG)
 
 
 ### Documentação:
