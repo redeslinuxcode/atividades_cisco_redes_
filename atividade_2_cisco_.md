@@ -17,9 +17,9 @@
 | RT-RSP      | S0/1/1     | 10.0.2.1        | 255.255.255.252 | ---            |
 | RT-RINTB    | S0/1/0     | 10.0.4.1        | 255.255.255.252 | ---            |
 | RT-RINTB    | S0/1/1     | 10.0.1.2        | 255.255.255.252 | ---            |
-| RT-RJJ      | G0/0/0     | 192.168.20.62   | 255.255.255.192 | ---            |
-| RT-RJJ      | S0/1/0     | 10.0.4.2        | 255.255.255.252 | ---            |
-| RT-RJJ      | S0/1/1     | 10.0.3.2        | 255.255.255.252 | ---            |
+| RT-RRJ      | G0/0/0     | 192.168.20.62   | 255.255.255.192 | ---            |
+| RT-RRJ      | S0/1/0     | 10.0.4.2        | 255.255.255.252 | ---            |
+| RT-RRJ      | S0/1/1     | 10.0.3.2        | 255.255.255.252 | ---            |
 | RINTA       | S0/1/0     | 10.0.3.1        | 255.255.255.252 | ---            |
 | RINTA       | S0/1/1     | 10.0.2.1        | 255.255.255.252 | ---            |
 
@@ -61,26 +61,26 @@ RT-RINTB(config-router)no auto-summary
 RT-RINTB(config-router)network 10.0.1.0
 RT-RINTB(config-router)network 10.0.4.0
 
-### RT-RJJ:
-RT-RJJ>enable
-RT-RJJ#config terminal
-RT-RJJ(config)interface g0/0/0
-RT-RJJ(config-if)ip address 192.168.20.62 255.255.255.192
-RT-RJJ(config-if)no shutdown
-RT-RJJ(config-if)interface s0/1/0
-RT-RJJ(config-if)clock rate 9600
-RT-RJJ(config-if)ip address 10.0.4.2 255.255.255.252
-RT-RJJ(config-if)no shutdown
-RT-RJJ(config-if)interface s0/1/1
-RT-RJJ(config-if)ip address 10.0.3.2 255.255.255.252
-RT-RJJ(config-if)no shutdown
-RT-RJJ(config-if)router rip
-RT-RJJ(config-router)version 2
-RT-RJJ(config-router)no auto-summary
-RT-RJJ(config-router)passive-interface g0/0/0
-RT-RJJ(config-router)network 192.168.20.0
-RT-RJJ(config-router)network 10.0.4.0
-RT-RJJ(config-router)network 10.0.3.0
+### RT-RRJ:
+RT-RRJ>enable
+RT-RRJ#config terminal
+RT-RRJ(config)interface g0/0/0
+RT-RRJ(config-if)ip address 192.168.20.62 255.255.255.192
+RT-RRJ(config-if)no shutdown
+RT-RRJ(config-if)interface s0/1/0
+RT-RRJ(config-if)clock rate 9600
+RT-RRJ(config-if)ip address 10.0.4.2 255.255.255.252
+RT-RRJ(config-if)no shutdown
+RT-RRJ(config-if)interface s0/1/1
+RT-RRJ(config-if)ip address 10.0.3.2 255.255.255.252
+RT-RRJ(config-if)no shutdown
+RT-RRJ(config-if)router rip
+RT-RRJ(config-router)version 2
+RT-RRJ(config-router)no auto-summary
+RT-RRJ(config-router)passive-interface g0/0/0
+RT-RRJ(config-router)network 192.168.20.0
+RT-RRJ(config-router)network 10.0.4.0
+RT-RRJ(config-router)network 10.0.3.0
 
 
 ### RT-RINTA:
