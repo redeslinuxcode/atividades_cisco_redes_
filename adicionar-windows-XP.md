@@ -1,4 +1,4 @@
-## Criar VM e Configuraçoes:
+## Criar VM, Configuraçoes e instalação do windows-XP :
 
 ### -No canto superior esquerdo clique em novo.
 
@@ -102,6 +102,62 @@
 
 ### -No canto inferior direto aperte em avançar
 
-![](
+![](https://github.com/redeslinuxcode/atividades_cisco_redes_/blob/main/windo/27-clique%20em%20avan%C3%A7ar.PNG)
+
+### -Aqui voce pode escolher se quer receber atualizaçoes de seguranças da microsoft
+
+![](https://github.com/redeslinuxcode/atividades_cisco_redes_/blob/main/windo/28-ajustes%20de%20prote%C3%A7%C3%A3o%20para%20receber%20atu.PNG)
+
+### -Deverá escolher entre as opçoes de acordo com a sua rede
+
+![](https://github.com/redeslinuxcode/atividades_cisco_redes_/blob/main/windo/30-configuta%C3%A7oes%20de%20redes.PNG)
+
+### -Aqui voce pode escolher em fazer o registro na microsoft, caso não queira não terá modificação alguma
+
+![](https://github.com/redeslinuxcode/atividades_cisco_redes_/blob/main/windo/31-registro%20na%20microsoft.PNG)
+
+### -Devera definir o nome dos usuarios
+
+![](https://github.com/redeslinuxcode/atividades_cisco_redes_/blob/main/windo/32-nome%20de%20usuario.PNG)
+
+### -tudo pronto!
+
+![](https://github.com/redeslinuxcode/atividades_cisco_redes_/blob/main/windo/33-tudo%20pronto.PNG)
+
+## Configuraçoes de redes:
+
+### -Com o comando windows+R iremos abrir o "executar" na barra de pesquisa iremos digitar "cmd" para abrir o prompt de comando
+
+![](https://github.com/redeslinuxcode/atividades_cisco_redes_/blob/main/windo/34.1%20win%2Br%20cmd.PNG)
+
+### -Com o comando "ipconfig" iremos visualizar nossas configuraçoes de redes como, ip, mascara de rede e gateway. Apartir dessas informaçoes voce pode verificar se sua maquina virtual esta dentro da mesma rede que sua maquina fisica
+
+![](https://github.com/redeslinuxcode/atividades_cisco_redes_/blob/main/windo/34.2%20verificar%20configura%C3%A7oes%20de%20redes.PNG)
+
+### -Caso sua configuração de redes não esta dentro da mesma rede que a sua maquina fisica vocde de utilizar o comando windows+R para abrir o executar e dentro da barra de pesquisa digite o comando "ncpa.cpl" para abrir as configuraçoes da placa de rede
+
+![](https://github.com/redeslinuxcode/atividades_cisco_redes_/blob/main/windo/34-win%2Br%20%2Bncpl.ncp%20iniciar%20configura%C3%A7oes%20de%20redes.PNG)
+
+### -Clicando com o botão esquerdo em cima do icone da placa de redes, voce vai poder abrir as propriedades da sua placa
+
+![](https://github.com/redeslinuxcode/atividades_cisco_redes_/blob/main/windo/35-bot%C3%A3o%20esquerdo%20propriedades.PNG)
+
+### -Clique em "protocolo TCP" para definir as configuraçoes de IP's
+
+![](https://github.com/redeslinuxcode/atividades_cisco_redes_/blob/main/windo/35-bot%C3%A3o%20esquerdo%20propriedades.PNG)
+
+### -Caso voce queira que sua maquina recepa um IP automaticamente voce deixe a opção "obter um endereço ip automaticamento" ou se quiser defiir um ip manualmete ou mudar sua maquina de rede marque a opção "usar o seguinte endereço IP" e defina um IP, mascara e um gateway caso queira ter acesso a internet
+
+![](https://github.com/redeslinuxcode/atividades_cisco_redes_/blob/main/windo/37-coloque%20seu%20pc%20na%20mesma%20rede%20que%20seu%20computador.PNG)
+
+### -Apos a configuração dos ips, para ter configuração entre sua maquina virtual e sua maquina fica voce deve desativar o seu firewall pelo prompt de comando voce deve digital o seguinte comando "netsh firewall set opmode disable"
+
+![](https://github.com/redeslinuxcode/atividades_cisco_redes_/blob/main/windo/desativar%20firewall.PNG)
+
+## pronto para o seu uso
+
+
+
+
 
 
