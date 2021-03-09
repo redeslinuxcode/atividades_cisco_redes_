@@ -1,12 +1,28 @@
 ## Topologia:
 
-![](https://github.com/redeslinuxcode/atividades_cisco_redes_/blob/main/cisco/topologia_1.PNG)
+![](https://github.com/redeslinuxcode/atividades_cisco_redes_/blob/main/cisco/topologia%207.PNG)
 
 ## Documentação:
 
 
+| VLAN  | NOME   |
+|-------|--------|
+| 10    | RED    |
+| 20    | BLUE   |
+| 30    | YELLOW |
+| 999   | NATIVE |
 
 
+| DISPOSITIVO  | INTERFACE | VLAN | MODO   | VLANS LIBERADA |
+|--------------|-----------|------|--------|----------------| 
+| SW-01        | G0/1-2    | 999  | TRUNK  | 10,20,30       |
+| SW-02        | G0/1      | 999  | TRUNK  | 10,20,30       |
+| SW-02        | F0/1–8    | 10   | ACCESS | ---            |
+| SW-02        | F0/9–16   | 20   | ACCESS | ---            |
+| SW-02        | F0/17–24  | 30   | ACCESS | ---            |
+| SW-03        | F0/1–8    | 10   | ACCESS | ---            |
+| SW-03        | F0/9–16   | 20   | ACCESS | ---            |
+| SW-03        | F0/17–24  | 30   | ACCESS | ---            |
 
 
 ## Codigo:
