@@ -86,5 +86,6 @@ RT-OPERADORA(config-if)ip route 0.0.0.0 0.0.0.0 209.145.200.0
 RT-OPERADORA(config-if)#router rip
 RT-OPERADORA(config-router)#version 2
 RT-OPERADORA(config-router)#no auto-summary
+RT-OPERADORA(config-router)default-information originate
 RT-OPERADORA(config-router)#network 10.0.0.4
 RT-OPERADORA(config-router)#network 10.0.0.0
