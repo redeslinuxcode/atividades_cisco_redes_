@@ -27,7 +27,7 @@
 | RT-01       | S0/1/0    | 10.0.0.2                | 255.255.255.0   | ---                     |
 
 ## Comandos:
-
+~~~~
 RT-01>
 RT-01>ena
 RT-01#config t
@@ -68,6 +68,6 @@ RT-02(config)#access-list 10 permit host 192.168.0.1
 RT-02(config)#access-list 20 deny any 
 RT-02(config)#int s0/1/0
 RT-02(config-if)#ip access-group 10 in
-
+~~~~
 
 
