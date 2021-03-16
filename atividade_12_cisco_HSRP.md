@@ -124,7 +124,7 @@ RT-05(config-router)#network 209.145.200.0
 RT-05(config-router)#passive-interface g0/0
 RT-05(config-router)#exit
 
-RT-04
+RT-05
 Router>
 Router>ena
 Router#config t
