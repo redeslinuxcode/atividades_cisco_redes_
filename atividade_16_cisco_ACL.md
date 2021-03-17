@@ -21,17 +21,17 @@
 | PC3          | NIC          | 192.168.30.10 | 255.255.255.0       | 192.168.30.1  |
 | Servidor Web |Placa de rede | 192.168.20.254| 255.255.255.0       |192.168.20.1   |
 
-·         Um ping de 192.168.10.10 a 192.168.11.10 é confirmado.
+·         **Um ping de 192.168.10.10 a 192.168.11.10 é confirmado.**
 
-·         Um ping de 192.168.10.10 a 192.168.20.254 é confirmado.
+·        **Um ping de 192.168.10.10 a 192.168.20.254 é confirmado.**
 
-·         Um ping de 192.168.11.10 a 192.168.20.254 falha.
+·        **Um ping de 192.168.11.10 a 192.168.20.254 falha.**
 
-·         Um ping de 192.168.10.10 a 192.168.30.10 falha.
+·        **Um ping de 192.168.10.10 a 192.168.30.10 falha.**
 
-·         Um ping de 192.168.11.10 a 192.168.30.10 é confirmado.
+·        **Um ping de 192.168.11.10 a 192.168.30.10 é confirmado.**
 
-·         Um ping de 192.168.30.10 a 192.168.20.254 é confirmado.
+·        **Um ping de 192.168.30.10 a 192.168.20.254 é confirmado.**
 
 ## Comandos:
 
