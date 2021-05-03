@@ -29,12 +29,7 @@
 R2>
 R2>
 R2>ena
-R2#config t
-Enter configuration commands, one per line.  End with CNTL/Z.
-R2(config)#int s0/110
-                  ^
-% Invalid input detected at '^' marker.
-	
+R2#config t	
 R2(config)#int s0/1/0
 R2(config-if)#ip nat outside
 R2(config-if)#int s0/0/0
